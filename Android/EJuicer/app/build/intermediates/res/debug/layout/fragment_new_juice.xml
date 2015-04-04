@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText android:id="@+id/NJ_juiceFlavor" android:layout_width="300dp"
+        android:layout_height="wrap_content" android:layout_gravity="center"
+        android:layout_margin="10dp" android:hint="@string/juiceFlavor"
+        android:singleLine="true" />
+
+    <RatingBar android:id="@+id/NJ_juiceRating" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center" android:numStars="5"
+        android:rating="3.0" android:stepSize="1.0" />
+
+    <Button android:id="@+id/NJ_delete" android:layout_width="200dp"
+        android:layout_height="wrap_content" android:layout_gravity="center"
+        android:layout_marginTop="50dp" android:text="@string/delete" android:visibility="gone" />
+
+</LinearLayout><!-- From: file:/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/src/main/res/layout/fragment_new_juice.xml -->

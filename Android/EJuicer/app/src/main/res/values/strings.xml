@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">E-Juicer</string>
+    <string name="parseAppId">0AeWMQV8PXBKQunAXFzf7j0IaqF573OGed7mFN9y</string>
+    <string name="parseClientKey">JFicScwD8uAL4UhgHtMLuGo3YkkXwc3OO0Yt5YV4</string>
+    <string name="juiceFlavor">Flavor</string>
+    <string name="juiceRating">Rating</string>
+    <string name="logout">Logout</string>
+    <string name="action_add">Add Juice</string>
+    <string name="action_save">Save</string>
+    <string name="noFlavor">Please enter a flavor</string>
+    <string name="delete">Delete</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2">
+
+    <item
+        jar="/Users/adamcrawford/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false" revision="21.1.2" sha1="129874135e6081269ace2312092031558865de12">
+        <dex
+            dex="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-fa808dc24cc9beaee60b51cd5a122acbd9d085ae.jar" />
+    </item>
+    <item jar="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/libs/Parse-1.9.0.jar"
+        jumboMode="false" revision="21.1.2" sha1="5811138d4e6cb9d45030e133ef1a61b935154c3a">
+        <dex
+            dex="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/pre-dexed/debug/Parse-1.9.0-2014bc6898c3e1c9f647e3c1b4cc1ebff5d4a35c.jar" />
+    </item>
+    <item
+        jar="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/classes.jar"
+        jumboMode="false" revision="21.1.2" sha1="092930e145dabb50db7644a2bb4d0c4467bd2b2f">
+        <dex
+            dex="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/pre-dexed/debug/classes-cb9b63fda354c6de8697f066f4c02bfcc9d5129b.jar" />
+    </item>
+    <item
+        jar="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/libs/ParseCrashReporting-1.9.0.jar"
+        jumboMode="false" revision="21.1.2" sha1="f42d74ec610e2961c8c8a56dffcd7485930b0e91">
+        <dex
+            dex="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.9.0-96a6425dcbddf0767e8f89279b97995f2bcad747.jar" />
+    </item>
+    <item
+        jar="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/classes.jar"
+        jumboMode="false" revision="21.1.2" sha1="0f254ec13d6671680482d2218f01ecf14dfa93e6">
+        <dex
+            dex="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/pre-dexed/debug/classes-c2ec48ef77c27f2dc237d82c6e41a6e5303d4ad7.jar" />
+    </item>
+    <item
+        jar="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false" revision="21.1.2" sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex
+            dex="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-ac7bbec2dab7079cdda64b56a2cbded5fcd708da.jar" />
+    </item>
+    <item
+        jar="/Users/adamcrawford/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false" revision="21.1.2" sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex
+            dex="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-2decd0de0ae0d82963c79705f7e88b86a4b22dec.jar" />
+    </item>
+    <item
+        jar="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/libs/ParseFacebookUtilsV4-1.9.0.jar"
+        jumboMode="false" revision="21.1.2" sha1="99ddf5a6fe76c9eb2a45e249f5e053c722b93c7f">
+        <dex
+            dex="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/pre-dexed/debug/ParseFacebookUtilsV4-1.9.0-1dca6446407a250dc3bc2dcda234176c0cea21c8.jar" />
+    </item>
+    <item
+        jar="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false" revision="21.1.2" sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex
+            dex="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/pre-dexed/debug/classes-1f2abfe688469dd4cbad2e8190d287dd64fc1a2f.jar" />
+    </item>
+
+</items>
