@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DEED65A9-6F2C-46F1-978F-E23AB38BC607</string>
+	<key>IDESourceControlProjectName</key>
+	<string>testApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7AC859B06BAAB23F0319E25B0A6FA4ADD1EEF3AE</key>
+		<string>https://github.com/geeksbsmrt/Cross_Platform_1504</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/testApp/testApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7AC859B06BAAB23F0319E25B0A6FA4ADD1EEF3AE</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/geeksbsmrt/Cross_Platform_1504</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7AC859B06BAAB23F0319E25B0A6FA4ADD1EEF3AE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7AC859B06BAAB23F0319E25B0A6FA4ADD1EEF3AE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cross_Platform_1504</string>
+		</dict>
+	</array>
+</dict>
+</plist>
