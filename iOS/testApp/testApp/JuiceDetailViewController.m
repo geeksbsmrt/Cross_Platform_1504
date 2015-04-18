@@ -50,33 +50,23 @@
 			sending[@"Flavor"] = flavorField.text;
 			sending[@"Rating"] = [NSNumber numberWithDouble:ratingStepper.value];
 			[sending saveInBackground];
-			[self dismissViewControllerAnimated:TRUE completion:nil];
+			
 		} else {
 			PFObject *juice = [PFObject objectWithClassName:@"Juice"];
 			juice[@"Flavor"] = flavorField.text;
 			juice[@"Rating"] = [NSNumber numberWithDouble:ratingStepper.value];
 			juice.ACL = [PFACL ACLWithUser:[PFUser currentUser]];
 			[juice saveInBackground];
-			UITabBarController *tabBarController = self.tabBarController;
-			UIView * fromView = tabBarController.selectedViewController.view;
-			UIView * toView = [[tabBarController.viewControllers objectAtIndex:0] view];
-			
-			[UIView transitionFromView:fromView
-								toView:toView
-							  duration:0.5
-							   options:UIViewAnimationOptionBeginFromCurrentState
-							completion:^(BOOL finished) {
-								if (finished) {
-									tabBarController.selectedIndex = 0;
-								}
-							}];
 		}
+		[self dismissViewControllerAnimated:TRUE completion:nil];
+		self.tabBarController.selectedIndex = 0;
 		break;
 		}
 		case 1:
 			//Cancel
 		{
 		[self dismissViewControllerAnimated:TRUE completion:nil];
+		self.tabBarController.selectedIndex = 0;
 		break;
 		}
 		default:

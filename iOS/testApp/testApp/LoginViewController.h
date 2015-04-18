@@ -12,6 +12,9 @@
 #import "JuiceListViewController.h"
 
 @interface LoginViewController : UIViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
+{
+	PFLogInViewController *logInViewController;
+}
 
 
 @end

@@ -28,7 +28,7 @@
 {
 	if (![PFUser currentUser]) { // No user logged in
 								 // Create the log in view controller
-		PFLogInViewController *logInViewController = [[PFLogInViewController alloc] init];
+		logInViewController = [[PFLogInViewController alloc] init];
 		[logInViewController setDelegate:self]; // Set ourselves as the delegate
 		
 		// Create the sign up view controller
@@ -63,6 +63,7 @@
 - (void)signUpViewController:(PFSignUpViewController *)signUpController didSignUpUser:(PFUser *)user {
 	[self performSegueWithIdentifier: @"listSegue" sender: self];
 	[signUpController dismissViewControllerAnimated:YES completion:NULL];
+	[logInViewController dismissViewControllerAnimated:YES completion:NULL];
 }
 
 - (void)signUpViewControllerDidCancelSignUp:(PFSignUpViewController *)signUpController {
