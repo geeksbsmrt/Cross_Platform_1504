@@ -1,23 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3">
-    <dataSet config="22.0.0">
-        <source
-            path="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/assets" />
-    </dataSet>
-    <dataSet config="4.0.0">
-        <source
-            path="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/assets" />
-    </dataSet>
-    <dataSet config="unspecified">
-        <source
-            path="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/assets" />
-    </dataSet>
-    <dataSet config="main">
-        <source
-            path="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/src/main/assets" />
-    </dataSet>
-    <dataSet config="debug">
-        <source
-            path="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/src/debug/assets" />
-    </dataSet>
-</merger>
+<merger version="3"><dataSet config="22.0.0"><source path="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/assets"/></dataSet><dataSet config="4.0.0"><source path="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/assets"/></dataSet><dataSet config="unspecified"><source path="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/assets"/></dataSet><dataSet config="main"><source path="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/src/main/assets"/></dataSet><dataSet config="debug"><source path="/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/src/debug/assets"/></dataSet></merger>

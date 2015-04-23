@@ -3,6 +3,8 @@ package com.adamcrawford.ejuicer;
 import android.app.Application;
 
 import com.parse.Parse;
+import com.parse.ParseCrashReporting;
+import com.parse.ParsePush;
 
 /**
  * Author:  Adam Crawford
@@ -15,6 +17,8 @@ public class EJuicer extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        ParseCrashReporting.enable(this);
         Parse.initialize(this, getString(R.string.parseAppId), getString(R.string.parseClientKey));
+        ParsePush.subscribeInBackground("");
     }
 }

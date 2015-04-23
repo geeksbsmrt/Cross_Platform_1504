@@ -9,6 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-        android:functionalTest="false" android:handleProfiling="false"
-        android:label="Tests for com.adamcrawford.ejuicer" android:targetPackage="com.adamcrawford.ejuicer" />
+                     android:targetPackage="com.adamcrawford.ejuicer"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for com.adamcrawford.ejuicer"/>
 </manifest>

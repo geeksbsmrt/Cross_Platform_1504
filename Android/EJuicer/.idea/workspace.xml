@@ -16,7 +16,369 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b23ffc-42d3-4c1c-b3c8-162e823ec9e4" name="Default" comment="Week 1" />
+    <list default="true" id="93b23ffc-42d3-4c1c-b3c8-162e823ec9e4" name="Default" comment="Week 1">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/CustomReceiver.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/manifests/tmp/manifestMerger5581880812460985955.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/adamcrawford/ejuicer/EJuicer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/adamcrawford/ejuicer/EJuicer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/adamcrawford/ejuicer/Fragment_JuiceList.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/adamcrawford/ejuicer/Fragment_JuiceList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/adamcrawford/ejuicer/JuiceItem.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/adamcrawford/ejuicer/JuiceItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/adamcrawford/ejuicer/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/adamcrawford/ejuicer/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/Parse-1.9.0-2014bc6898c3e1c9f647e3c1b4cc1ebff5d4a35c.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/Parse-1.9.0-2014bc6898c3e1c9f647e3c1b4cc1ebff5d4a35c.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.9.0-96a6425dcbddf0767e8f89279b97995f2bcad747.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.9.0-96a6425dcbddf0767e8f89279b97995f2bcad747.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/ParseFacebookUtilsV4-1.9.0-1dca6446407a250dc3bc2dcda234176c0cea21c8.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/ParseFacebookUtilsV4-1.9.0-1dca6446407a250dc3bc2dcda234176c0cea21c8.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginActivity.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginActivity.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginBuilder.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginBuilder.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginConfig.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginConfig.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginDispatchActivity.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginDispatchActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginDispatchActivity.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginDispatchActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$1$1.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$1$1.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$1.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$1.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$2.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$2.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$3.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$3.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$4$1$1$1.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$4$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$4$1$1$1.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$4$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$4$1$1.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$4$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$4$1$1.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$4$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$4$1.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$4$1.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$4.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$4.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$5$1$1.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$5$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$5$1$1.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$5$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$5$1.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$5$1.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$5.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$5.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragmentBase.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginFragmentBase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragmentBase.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginFragmentBase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginHelpFragment$1.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginHelpFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginHelpFragment$1.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginHelpFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginHelpFragment.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseLoginHelpFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginHelpFragment.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseLoginHelpFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/outputs/aar/ParseLoginUI-debug.aar" afterPath="$PROJECT_DIR$/ParseLoginUI/build/outputs/aar/ParseLoginUI-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/outputs/aar/ParseLoginUI-release.aar" afterPath="$PROJECT_DIR$/ParseLoginUI/build/outputs/aar/ParseLoginUI-release.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseSignupFragment$1.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseSignupFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseSignupFragment$1.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseSignupFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseSignupFragment.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/debug/com/parse/ui/ParseSignupFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseSignupFragment.class" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/classes/release/com/parse/ui/ParseSignupFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../iOS/testApp/testApp.xcodeproj/project.xcworkspace/xcuserdata/adamcrawford.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/../../iOS/testApp/testApp.xcodeproj/project.xcworkspace/xcuserdata/adamcrawford.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-fa808dc24cc9beaee60b51cd5a122acbd9d085ae.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-fa808dc24cc9beaee60b51cd5a122acbd9d085ae.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-1f2abfe688469dd4cbad2e8190d287dd64fc1a2f.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-1f2abfe688469dd4cbad2e8190d287dd64fc1a2f.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-c2ec48ef77c27f2dc237d82c6e41a6e5303d4ad7.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-c2ec48ef77c27f2dc237d82c6e41a6e5303d4ad7.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-cb9b63fda354c6de8697f066f4c02bfcc9d5129b.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/classes-cb9b63fda354c6de8697f066f4c02bfcc9d5129b.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/classes.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-ac7bbec2dab7079cdda64b56a2cbded5fcd708da.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-ac7bbec2dab7079cdda64b56a2cbded5fcd708da.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/resources/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-2decd0de0ae0d82963c79705f7e88b86a4b22dec.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-2decd0de0ae0d82963c79705f7e88b86a4b22dec.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/aapt/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/aapt/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/aapt/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/aapt/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/androidTest/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/EJuicer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/EJuicer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/layout/com_facebook_activity_layout.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/layout/com_facebook_activity_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_facebook_activity_layout.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_facebook_activity_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/com_facebook_button_background.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/com_facebook_button_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/com_facebook_button_background.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/com_facebook_button_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_button_blue.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_button_blue.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_button_check.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_button_check.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_button_like.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_button_like.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/com_facebook_button_like_background.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/com_facebook_button_like_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/com_facebook_button_like_background.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/com_facebook_button_like_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_button_like_selected.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_button_like_selected.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/com_facebook_button_login_silver_background.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/com_facebook_button_login_silver_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/com_facebook_button_login_silver_background.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/com_facebook_button_login_silver_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/com_facebook_button_send_background.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/com_facebook_button_send_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/com_facebook_button_send_background.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/com_facebook_button_send_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_friendpickerfragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_friendpickerfragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_login_activity_layout.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_login_activity_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/layout/com_facebook_login_fragment.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/layout/com_facebook_login_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_facebook_login_fragment.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_facebook_login_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_loginbutton_silver.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_loginbutton_silver.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_picker_activity_circle_row.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_picker_activity_circle_row.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_picker_checkbox.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_picker_checkbox.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_picker_image.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_picker_image.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_picker_item_background.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_picker_item_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_picker_list_row.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_picker_list_row.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_picker_list_section_header.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_picker_list_section_header.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_picker_list_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_picker_list_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_picker_list_selector_background_transition.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_picker_list_selector_background_transition.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_picker_search_box.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_picker_search_box.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_picker_title_bar.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_picker_title_bar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_picker_title_bar_stub.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_picker_title_bar_stub.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_picker_top_button.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_picker_top_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_placepickerfragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_placepickerfragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_placepickerfragment_list_row.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_placepickerfragment_list_row.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_search_bar_layout.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_search_bar_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_tooltip_bubble.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_tooltip_bubble.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/layout/com_facebook_tooltip_bubble.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/layout/com_facebook_tooltip_bubble.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_facebook_tooltip_bubble.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_facebook_tooltip_bubble.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_top_background.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_top_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_top_button.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_top_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_usersettingsfragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/layout/com_facebook_usersettingsfragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_usersettingsfragment_background_gradient.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/drawable/com_facebook_usersettingsfragment_background_gradient.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/drawable/com_parse_ui_facebook_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/drawable/com_parse_ui_facebook_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/drawable/com_parse_ui_facebook_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/drawable/com_parse_ui_facebook_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/drawable/com_parse_ui_facebook_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/drawable/com_parse_ui_facebook_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/drawable/com_parse_ui_facebook_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/drawable/com_parse_ui_facebook_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/drawable/com_parse_ui_facebook_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/drawable/com_parse_ui_facebook_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/drawable/com_parse_ui_facebook_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/drawable/com_parse_ui_facebook_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/com_parse_ui_facebook_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/com_parse_ui_facebook_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout/com_parse_ui_parse_login_app_logo.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout/com_parse_ui_parse_login_app_logo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout/com_parse_ui_parse_login_app_logo.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout/com_parse_ui_parse_login_app_logo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout/com_parse_ui_parse_login_app_logo.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout/com_parse_ui_parse_login_app_logo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout/com_parse_ui_parse_login_app_logo.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout/com_parse_ui_parse_login_app_logo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout/com_parse_ui_parse_login_app_logo.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout/com_parse_ui_parse_login_app_logo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout/com_parse_ui_parse_login_app_logo.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout/com_parse_ui_parse_login_app_logo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_parse_ui_parse_login_app_logo.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_parse_ui_parse_login_app_logo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/drawable/com_parse_ui_parse_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/drawable/com_parse_ui_parse_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/drawable/com_parse_ui_parse_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/drawable/com_parse_ui_parse_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/drawable/com_parse_ui_parse_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/drawable/com_parse_ui_parse_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/drawable/com_parse_ui_parse_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/drawable/com_parse_ui_parse_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/drawable/com_parse_ui_parse_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/drawable/com_parse_ui_parse_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/drawable/com_parse_ui_parse_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/drawable/com_parse_ui_parse_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/com_parse_ui_parse_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/com_parse_ui_parse_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout/com_parse_ui_parse_login_form.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout/com_parse_ui_parse_login_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout/com_parse_ui_parse_login_form.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout/com_parse_ui_parse_login_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout/com_parse_ui_parse_login_form.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout/com_parse_ui_parse_login_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout/com_parse_ui_parse_login_form.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout/com_parse_ui_parse_login_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout/com_parse_ui_parse_login_form.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout/com_parse_ui_parse_login_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout/com_parse_ui_parse_login_form.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout/com_parse_ui_parse_login_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_parse_ui_parse_login_form.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_parse_ui_parse_login_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout/com_parse_ui_parse_login_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout/com_parse_ui_parse_login_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout-land/com_parse_ui_parse_login_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout-land/com_parse_ui_parse_login_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout/com_parse_ui_parse_login_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout/com_parse_ui_parse_login_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout-land/com_parse_ui_parse_login_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout-land/com_parse_ui_parse_login_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout/com_parse_ui_parse_login_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout/com_parse_ui_parse_login_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout-land/com_parse_ui_parse_login_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout-land/com_parse_ui_parse_login_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout/com_parse_ui_parse_login_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout/com_parse_ui_parse_login_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout-land/com_parse_ui_parse_login_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout-land/com_parse_ui_parse_login_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout/com_parse_ui_parse_login_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout/com_parse_ui_parse_login_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout-land/com_parse_ui_parse_login_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout-land/com_parse_ui_parse_login_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout/com_parse_ui_parse_login_fragment.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout/com_parse_ui_parse_login_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout-land/com_parse_ui_parse_login_fragment.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout-land/com_parse_ui_parse_login_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_parse_ui_parse_login_fragment.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_parse_ui_parse_login_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout-land/com_parse_ui_parse_login_fragment.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout-land/com_parse_ui_parse_login_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/color/com_parse_ui_parse_login_help_button_label_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/color/com_parse_ui_parse_login_help_button_label_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/color/com_parse_ui_parse_login_help_button_label_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/color/com_parse_ui_parse_login_help_button_label_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/color/com_parse_ui_parse_login_help_button_label_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/color/com_parse_ui_parse_login_help_button_label_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/color/com_parse_ui_parse_login_help_button_label_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/color/com_parse_ui_parse_login_help_button_label_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/color/com_parse_ui_parse_login_help_button_label_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/color/com_parse_ui_parse_login_help_button_label_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/color/com_parse_ui_parse_login_help_button_label_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/color/com_parse_ui_parse_login_help_button_label_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/color/com_parse_ui_parse_login_help_button_label_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/color/com_parse_ui_parse_login_help_button_label_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout/com_parse_ui_parse_login_help_form.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout/com_parse_ui_parse_login_help_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout/com_parse_ui_parse_login_help_form.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout/com_parse_ui_parse_login_help_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout/com_parse_ui_parse_login_help_form.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout/com_parse_ui_parse_login_help_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout/com_parse_ui_parse_login_help_form.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout/com_parse_ui_parse_login_help_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout/com_parse_ui_parse_login_help_form.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout/com_parse_ui_parse_login_help_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout/com_parse_ui_parse_login_help_form.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout/com_parse_ui_parse_login_help_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_parse_ui_parse_login_help_form.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_parse_ui_parse_login_help_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout/com_parse_ui_parse_login_help_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout/com_parse_ui_parse_login_help_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout-land/com_parse_ui_parse_login_help_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout-land/com_parse_ui_parse_login_help_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout/com_parse_ui_parse_login_help_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout/com_parse_ui_parse_login_help_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout-land/com_parse_ui_parse_login_help_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout-land/com_parse_ui_parse_login_help_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout/com_parse_ui_parse_login_help_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout/com_parse_ui_parse_login_help_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout-land/com_parse_ui_parse_login_help_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout-land/com_parse_ui_parse_login_help_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout/com_parse_ui_parse_login_help_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout/com_parse_ui_parse_login_help_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout-land/com_parse_ui_parse_login_help_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout-land/com_parse_ui_parse_login_help_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout/com_parse_ui_parse_login_help_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout/com_parse_ui_parse_login_help_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout-land/com_parse_ui_parse_login_help_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout-land/com_parse_ui_parse_login_help_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout/com_parse_ui_parse_login_help_fragment.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout/com_parse_ui_parse_login_help_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout-land/com_parse_ui_parse_login_help_fragment.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout-land/com_parse_ui_parse_login_help_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_parse_ui_parse_login_help_fragment.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_parse_ui_parse_login_help_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout-land/com_parse_ui_parse_login_help_fragment.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout-land/com_parse_ui_parse_login_help_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout/com_parse_ui_parse_login_third_party_section.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout/com_parse_ui_parse_login_third_party_section.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_parse_ui_parse_login_third_party_section.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_parse_ui_parse_login_third_party_section.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout/com_parse_ui_parse_signup_form.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout/com_parse_ui_parse_signup_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout/com_parse_ui_parse_signup_form.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout/com_parse_ui_parse_signup_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout/com_parse_ui_parse_signup_form.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout/com_parse_ui_parse_signup_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout/com_parse_ui_parse_signup_form.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout/com_parse_ui_parse_signup_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout/com_parse_ui_parse_signup_form.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout/com_parse_ui_parse_signup_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout/com_parse_ui_parse_signup_form.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout/com_parse_ui_parse_signup_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_parse_ui_parse_signup_form.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_parse_ui_parse_signup_form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout/com_parse_ui_parse_signup_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout/com_parse_ui_parse_signup_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout-land/com_parse_ui_parse_signup_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/layout-land/com_parse_ui_parse_signup_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout/com_parse_ui_parse_signup_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout/com_parse_ui_parse_signup_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout-land/com_parse_ui_parse_signup_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/layout-land/com_parse_ui_parse_signup_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout/com_parse_ui_parse_signup_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout/com_parse_ui_parse_signup_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout-land/com_parse_ui_parse_signup_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/layout-land/com_parse_ui_parse_signup_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout/com_parse_ui_parse_signup_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout/com_parse_ui_parse_signup_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout-land/com_parse_ui_parse_signup_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/layout-land/com_parse_ui_parse_signup_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout/com_parse_ui_parse_signup_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout/com_parse_ui_parse_signup_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout-land/com_parse_ui_parse_signup_fragment.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/layout-land/com_parse_ui_parse_signup_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout/com_parse_ui_parse_signup_fragment.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout/com_parse_ui_parse_signup_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout-land/com_parse_ui_parse_signup_fragment.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/layout-land/com_parse_ui_parse_signup_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_parse_ui_parse_signup_fragment.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/com_parse_ui_parse_signup_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout-land/com_parse_ui_parse_signup_fragment.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout-land/com_parse_ui_parse_signup_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/drawable/com_parse_ui_twitter_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/drawable/com_parse_ui_twitter_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/drawable/com_parse_ui_twitter_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/drawable/com_parse_ui_twitter_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/drawable/com_parse_ui_twitter_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/drawable/com_parse_ui_twitter_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/drawable/com_parse_ui_twitter_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/drawable/com_parse_ui_twitter_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/drawable/com_parse_ui_twitter_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/drawable/com_parse_ui_twitter_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/drawable/com_parse_ui_twitter_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/drawable/com_parse_ui_twitter_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/com_parse_ui_twitter_login_button_background_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/com_parse_ui_twitter_login_button_background_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/fragment_list.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/fragment_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/fragment_new_juice.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/fragment_new_juice.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/item_juice.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/item_juice.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/menu/menu_main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/menu/menu_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/incremental/mergeResources/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/incremental/mergeResources/release/merger.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/incremental/mergeResources/release/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/incremental/packageResources/debug/merger.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/incremental/packageResources/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/incremental/packageResources/release/merger.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/incremental/packageResources/release/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/androidTest/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/messenger_button_blue_bg_round.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/messenger_button_blue_bg_round.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/messenger_button_blue_bg_round.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/messenger_button_blue_bg_round.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/messenger_button_blue_bg_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/messenger_button_blue_bg_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/messenger_button_blue_bg_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/messenger_button_blue_bg_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/layout/messenger_button_send_blue_large.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/layout/messenger_button_send_blue_large.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/messenger_button_send_blue_large.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/messenger_button_send_blue_large.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/layout/messenger_button_send_blue_round.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/layout/messenger_button_send_blue_round.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/messenger_button_send_blue_round.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/messenger_button_send_blue_round.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/layout/messenger_button_send_blue_small.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/layout/messenger_button_send_blue_small.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/messenger_button_send_blue_small.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/messenger_button_send_blue_small.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/layout/messenger_button_send_white_large.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/layout/messenger_button_send_white_large.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/messenger_button_send_white_large.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/messenger_button_send_white_large.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/layout/messenger_button_send_white_round.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/layout/messenger_button_send_white_round.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/messenger_button_send_white_round.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/messenger_button_send_white_round.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/layout/messenger_button_send_white_small.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/layout/messenger_button_send_white_small.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/messenger_button_send_white_small.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/layout/messenger_button_send_white_small.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/messenger_button_white_bg_round.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/messenger_button_white_bg_round.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/messenger_button_white_bg_round.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/messenger_button_white_bg_round.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/messenger_button_white_bg_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/messenger_button_white_bg_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/messenger_button_white_bg_selector.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/drawable/messenger_button_white_bg_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/values/values.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/debug/res/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/values/values.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/bundles/release/res/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/values/values.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/values-es/values.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/values-es/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/values-hdpi-v4/values.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/values-hdpi-v4/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/values-he/values.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/values-he/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/values-iw/values.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/values-iw/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/values-ldpi-v4/values.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/values-ldpi-v4/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/values-mdpi-v4/values.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/values-mdpi-v4/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/values-xhdpi-v4/values.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.1/res/values-xhdpi-v4/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/values/values.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/androidTest/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/values/values.xml" afterPath="$PROJECT_DIR$/ParseLoginUI/build/intermediates/res/release/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-af/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-af/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-ar/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-ar/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-bn/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-bn/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-cs/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-cs/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-da/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-da/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-de/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-de/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-el/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-el/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-es/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-es/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-es-rES/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-es-rES/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-fi/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-fi/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-fr/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-fr/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-gu/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-gu/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-he/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-he/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-hi/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-hi/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-in/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-in/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-it/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-it/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-iw/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-iw/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-ja/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-ja/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-kn/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-kn/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-ko/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-ko/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-ml/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-ml/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-mr/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-mr/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-ms/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-ms/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-nb/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-nb/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-nl/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-nl/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-pa/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-pa/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-pl/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-pl/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-pt/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-pt/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-pt-rPT/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-pt-rPT/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-ru/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-ru/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-sv/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-sv/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-ta/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-ta/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-te/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-te/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-th/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-th/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-tl/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-tl/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-tr/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-tr/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-vi/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-vi/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-zh-rCN/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-zh-rCN/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-zh-rHK/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-zh-rHK/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-zh-rTW/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/values-zh-rTW/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-af/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-af/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-ar/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-ar/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-bn/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-bn/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-cs/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-cs/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-da/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-da/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-de/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-de/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-el/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-el/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-es/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-es/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-es-rES/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-es-rES/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-fi/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-fi/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-fr/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-fr/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-gu/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-gu/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-he/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-he/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-hi/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-hi/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-in/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-in/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-it/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-it/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-iw/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-iw/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-ja/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-ja/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-kn/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-kn/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-ko/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-ko/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-ml/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-ml/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-mr/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-mr/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-ms/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-ms/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-nb/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-nb/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-nl/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-nl/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-pa/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-pa/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-pl/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-pl/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-pt/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-pt/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-pt-rPT/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-pt-rPT/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-ru/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-ru/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-sv/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-sv/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-ta/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-ta/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-te/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-te/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-th/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-th/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-tl/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-tl/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-tr/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-tr/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-vi/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-vi/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-zh-rCN/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-zh-rCN/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-zh-rHK/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-zh-rHK/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-zh-rTW/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/values-zh-rTW/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="EJuicer.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,23 +398,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Fragment_JuiceList.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/Fragment_JuiceList.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+              <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fragment_NewJuice.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/Fragment_NewJuice.java">
+      <file leaf-file-name="Fragment_JuiceList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/Fragment_JuiceList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="63" column="71" selection-start-line="63" selection-start-column="71" selection-end-line="63" selection-end-column="71" />
+              <folding>
+                <element signature="e#987#1005#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomReceiver.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/CustomReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6423983">
+              <caret line="20" column="107" selection-start-line="20" selection-start-column="107" selection-end-line="20" selection-end-column="107" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,9 +451,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="layoutResourceFile_vertical" />
         <option value="resourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -1450,18 +1838,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/EJuicer.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_juice.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/JuiceItem.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/Fragment_JuiceList.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_new_juice.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/Fragment_NewJuice.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/EJuicer.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/Fragment_JuiceList.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/CustomReceiver.java" />
       </list>
     </option>
   </component>
@@ -1469,9 +1858,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
+    <option name="x" value="68" />
     <option name="y" value="23" />
-    <option name="width" value="1301" />
+    <option name="width" value="1275" />
     <option name="height" value="854" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -1481,11 +1870,11 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -1497,7 +1886,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1514,6 +1902,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EJuicer" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1548,9 +1958,45 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EJuicer" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="EJuicer">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -1911,11 +2357,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="23" width="1301" height="854" extended-state="0" />
+    <frame x="68" y="23" width="1275" height="854" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3061377" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1925,18 +2372,17 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2546634" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30659252" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1969,11 +2415,41 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/Fragment_JuiceList.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/Fragment_JuiceList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/Fragment_NewJuice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/Fragment_JuiceList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1991,7 +2467,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2009,7 +2487,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2027,7 +2507,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2045,7 +2527,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2067,13 +2551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/EJuicer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2088,30 +2565,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29577464">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="e#334#340#0" expanded="true" />
-            <element signature="e#552#570#0" expanded="true" />
-            <element signature="e#881#899#0" expanded="true" />
-            <element signature="e#1026#1044#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2132,17 +2589,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_juice.xml">
@@ -2180,16 +2626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6788009">
-          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33936653">
@@ -2209,6 +2645,13 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ParseLoginUI/src/com/parse/ui/ParseSignupFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33190578">
+          <caret line="200" column="28" selection-start-line="200" selection-start-column="28" selection-end-line="200" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/Fragment_NewJuice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2219,18 +2662,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ParseLoginUI/src/com/parse/ui/ParseSignupFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/EJuicer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33190578">
-          <caret line="200" column="28" selection-start-line="200" selection-start-column="28" selection-end-line="200" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.4817987">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51391864">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="71" selection-start-line="63" selection-start-column="71" selection-end-line="63" selection-end-column="71" />
+          <folding>
+            <element signature="e#987#1005#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/Fragment_JuiceList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/adamcrawford/ejuicer/CustomReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6423983">
+          <caret line="20" column="107" selection-start-line="20" selection-start-column="107" selection-end-line="20" selection-end-column="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

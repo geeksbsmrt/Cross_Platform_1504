@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView android:id="@+id/JI_juiceFlavor" android:layout_width="fill_parent"
-        android:layout_height="wrap_content" android:layout_margin="7dp"
-        android:layout_marginTop="5dp" android:text="@string/juiceFlavor"
+    <TextView
+        android:id="@+id/JI_juiceFlavor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/juiceFlavor"
         android:textAppearance="?android:textAppearanceLarge" />
-    <RatingBar android:id="@+id/JI_juiceRating" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" android:isIndicator="true" android:numStars="5"
+
+    <RatingBar
+        android:id="@+id/JI_juiceRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="true"
+        android:numStars="5"
         android:stepSize="1.0" />
 
 </LinearLayout><!-- From: file:/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/src/main/res/layout/item_juice.xml -->

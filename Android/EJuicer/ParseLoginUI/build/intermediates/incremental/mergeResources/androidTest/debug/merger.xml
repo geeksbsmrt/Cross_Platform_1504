@@ -42,7 +42,8 @@
         <item name="android:paddingTop">8dp</item>
         <item name="android:paddingBottom">16dp</item>
         <item name="android:background">@android:color/transparent</item>
-        <item name="android:textColor">@color/com_parse_ui_parse_login_help_button_label_selector</item>
+        <item name="android:textColor">@color/com_parse_ui_parse_login_help_button_label_selector
+        </item>
         <item name="android:textSize">16sp</item>
     </style><string name="com_parse_ui_invalid_email_toast">Email is invalid, please correct it and try again</string><string name="com_parse_ui_login_help_submit_button_label">Submit</string><string name="com_parse_ui_login_help_instructions">Enter your email to recover your password</string><string name="com_parse_ui_login_warning_layout_missing_login_button">Layout missing login button</string><string name="com_parse_ui_reenter_password_toast">Please re-enter your password</string><plurals name="com_parse_ui_password_too_short_toast">
         <item quantity="one">Password must be at least %d character long</item>

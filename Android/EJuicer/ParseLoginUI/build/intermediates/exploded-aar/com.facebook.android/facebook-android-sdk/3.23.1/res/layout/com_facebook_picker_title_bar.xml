@@ -20,7 +20,6 @@
     android:layout_height="48dp"
     android:background="@drawable/com_facebook_top_background"
     android:gravity="right">
-
     <Button
         android:id="@+id/com_facebook_picker_done_button"
         android:layout_width="wrap_content"
@@ -36,14 +35,12 @@
         android:shadowRadius="1"
         android:textColor="#ffffff"
         android:textSize="14sp" />
-
     <LinearLayout
         android:id="@+id/com_facebook_picker_divider"
         android:layout_width="1dp"
         android:layout_height="match_parent"
         android:layout_alignLeft="@id/com_facebook_picker_done_button"
         android:background="#40000000" />
-
     <TextView
         android:id="@+id/com_facebook_picker_title"
         android:layout_width="match_parent"

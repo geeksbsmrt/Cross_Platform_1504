@@ -2,13 +2,17 @@ package com.adamcrawford.ejuicer;
 
 import android.app.ActionBar;
 import android.app.Activity;
+import android.app.FragmentManager;
 import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.parse.ParseInstallation;
 import com.parse.ParseObject;
 import com.parse.ParseUser;
 
@@ -24,6 +28,13 @@ public class MainActivity extends Activity {
     public static ActionBar actionBar;
     public static Context mContext;
     public static Menu mainMenu;
+    public static FragmentManager fragMan;
+
+    public static boolean isConnected(Context context) {
+        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(CONNECTIVITY_SERVICE);
+        NetworkInfo netInfo = cm.getActiveNetworkInfo();
+        return netInfo != null && netInfo.isConnectedOrConnecting();
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,14 +43,26 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         actionBar = getActionBar();
         mContext = getApplicationContext();
+        fragMan = getFragmentManager();
 
         ParseObject.registerSubclass(JuiceItem.class);
+
+        ParseInstallation installation = ParseInstallation.getCurrentInstallation();
+        installation.put("user", ParseUser.getCurrentUser());
+        installation.saveInBackground();
+
         if (savedInstanceState == null) {
             Fragment_JuiceList fjl = new Fragment_JuiceList();
             getFragmentManager().beginTransaction()
-                    .add(R.id.container, fjl)
+                    .add(R.id.container, fjl, "JuiceListFrag")
                     .commit();
         }
+    }
+
+    public static boolean isConnected(Context context) {
+        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(CONNECTIVITY_SERVICE);
+        NetworkInfo netInfo = cm.getActiveNetworkInfo();
+        return netInfo != null && netInfo.isConnectedOrConnecting();
     }
 
     @Override

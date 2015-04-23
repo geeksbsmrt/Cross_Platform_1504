@@ -19,10 +19,10 @@
 -->
 
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/messenger_send_button"
-    style="@style/MessengerButton.White.Large">
+	android:id="@+id/messenger_send_button"
+	style="@style/MessengerButton.White.Large">
 
-    <TextView
-        style="@style/MessengerButtonText.White.Large"
-        android:text="@string/messenger_send_button_text" />
+	<TextView
+		style="@style/MessengerButtonText.White.Large"
+		android:text="@string/messenger_send_button_text" />
 </FrameLayout><!-- From: file:/Users/gokhanc/src/android-sdk/facebook/res/layout/messenger_button_send_white_large.xml -->

@@ -1,9 +1,8 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@color/com_parse_ui_twitter_login_button_push"
-        android:state_pressed="true" />
-    <item android:drawable="@color/com_parse_ui_twitter_login_button_focus"
-        android:state_focused="true" />
+    <item android:drawable="@color/com_parse_ui_twitter_login_button_push" android:state_pressed="true" />
+    <item android:drawable="@color/com_parse_ui_twitter_login_button_focus" android:state_focused="true" />
     <item android:drawable="@color/com_parse_ui_twitter_login_button" />
 
-</selector><!-- From: file:/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/ParseLoginUI/res/drawable/com_parse_ui_twitter_login_button_background_selector.xml --><!-- From: file:/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/drawable/com_parse_ui_twitter_login_button_background_selector.xml -->
+</selector>
+<!-- From: file:/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/ParseLoginUI/res/drawable/com_parse_ui_twitter_login_button_background_selector.xml --><!-- From: file:/Users/adamcrawford/Git/Cross_Platform_1504/Android/EJuicer/app/build/intermediates/exploded-aar/EJuicer/ParseLoginUI/unspecified/res/drawable/com_parse_ui_twitter_login_button_background_selector.xml -->

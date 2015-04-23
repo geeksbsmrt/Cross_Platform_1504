@@ -19,7 +19,7 @@
 -->
 
 <Button xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/messenger_send_button"
-    android:layout_width="58dp"
-    android:layout_height="59dp"
-    android:background="@drawable/messenger_button_blue_bg_round" /><!-- From: file:/Users/gokhanc/src/android-sdk/facebook/res/layout/messenger_button_send_blue_round.xml -->
+	android:id="@+id/messenger_send_button"
+	android:layout_width="58dp"
+	android:layout_height="59dp"
+	android:background="@drawable/messenger_button_blue_bg_round" /><!-- From: file:/Users/gokhanc/src/android-sdk/facebook/res/layout/messenger_button_send_blue_round.xml -->
