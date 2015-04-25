@@ -19,6 +19,7 @@ import com.parse.ParseInstallation;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
+import com.parse.SaveCallback;
 
 import java.util.List;
 import java.util.Timer;
@@ -147,7 +148,12 @@ public class MainActivity extends Activity {
                         juices.findInBackground(new FindCallback<JuiceItem>() {
                             @Override
                             public void done(List<JuiceItem> list, ParseException e) {
-                                ParseObject.saveAllInBackground(list);
+                                ParseObject.saveAllInBackground(list, new SaveCallback() {
+                                    @Override
+                                    public void done(ParseException e) {
+                                        ParseObject.unpinAllInBackground();
+                                    }
+                                });
                             }
                         });
                     } catch (ParseException e) {
