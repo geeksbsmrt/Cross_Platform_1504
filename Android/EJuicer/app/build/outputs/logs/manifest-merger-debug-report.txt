@@ -42,17 +42,17 @@ ADDED from AndroidManifest.xml:10:5
 	android:name
 		ADDED from AndroidManifest.xml:10:22
 permission#com.adamcrawford.ejuicer.permission.C2D_MESSAGE
-ADDED from AndroidManifest.xml:11:5
+ADDED from AndroidManifest.xml:12:5
 	android:protectionLevel
-		ADDED from AndroidManifest.xml:11:17
+		ADDED from AndroidManifest.xml:14:9
 	android:name
-		ADDED from AndroidManifest.xml:12:9
+		ADDED from AndroidManifest.xml:13:9
 uses-permission#com.adamcrawford.ejuicer.permission.C2D_MESSAGE
-ADDED from AndroidManifest.xml:13:5
-	android:name
-		ADDED from AndroidManifest.xml:13:22
-application
 ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+application
+ADDED from AndroidManifest.xml:17:5
 MERGED from com.facebook.android:facebook-android-sdk:4.0.0:28:5
 MERGED from com.android.support:support-v4:22.0.0:22:5
 MERGED from EJuicer:ParseLoginUI:unspecified:11:5
@@ -60,115 +60,115 @@ MERGED from com.android.support:support-v4:22.0.0:22:5
 MERGED from com.facebook.android:facebook-android-sdk:4.0.0:28:5
 MERGED from com.android.support:support-v4:22.0.0:22:5
 	android:label
-		ADDED from AndroidManifest.xml:19:9
+		ADDED from AndroidManifest.xml:21:9
 	android:allowBackup
-		ADDED from AndroidManifest.xml:17:9
+		ADDED from AndroidManifest.xml:19:9
 	android:icon
-		ADDED from AndroidManifest.xml:18:9
-	android:theme
 		ADDED from AndroidManifest.xml:20:9
+	android:theme
+		ADDED from AndroidManifest.xml:22:9
 	android:name
-		ADDED from AndroidManifest.xml:16:9
+		ADDED from AndroidManifest.xml:18:9
 activity#com.adamcrawford.ejuicer.LoginActivity
-ADDED from AndroidManifest.xml:21:9
+ADDED from AndroidManifest.xml:23:9
 	android:label
-		ADDED from AndroidManifest.xml:23:13
+		ADDED from AndroidManifest.xml:25:13
 	android:name
-		ADDED from AndroidManifest.xml:22:13
+		ADDED from AndroidManifest.xml:24:13
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:24:13
+ADDED from AndroidManifest.xml:26:13
 action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:25:17
-	android:name
-		ADDED from AndroidManifest.xml:25:25
-category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:27:17
 	android:name
-		ADDED from AndroidManifest.xml:27:27
+		ADDED from AndroidManifest.xml:27:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:29:17
+	android:name
+		ADDED from AndroidManifest.xml:29:27
 activity#com.adamcrawford.ejuicer.MainActivity
-ADDED from AndroidManifest.xml:30:9
+ADDED from AndroidManifest.xml:32:9
 	android:label
-		ADDED from AndroidManifest.xml:32:13
+		ADDED from AndroidManifest.xml:34:13
 	android:name
-		ADDED from AndroidManifest.xml:31:13
+		ADDED from AndroidManifest.xml:33:13
 activity#com.parse.ui.ParseLoginActivity
-ADDED from AndroidManifest.xml:36:9
+ADDED from AndroidManifest.xml:38:9
 	android:label
-		ADDED from AndroidManifest.xml:38:13
+		ADDED from AndroidManifest.xml:40:13
 	android:launchMode
+		ADDED from AndroidManifest.xml:41:13
+	android:name
 		ADDED from AndroidManifest.xml:39:13
-	android:name
-		ADDED from AndroidManifest.xml:37:13
 meta-data#com.parse.ui.ParseLoginActivity.PARSE_LOGIN_ENABLED
-ADDED from AndroidManifest.xml:40:13
+ADDED from AndroidManifest.xml:42:13
 	android:value
-		ADDED from AndroidManifest.xml:42:17
-	android:name
-		ADDED from AndroidManifest.xml:41:17
-meta-data#com.parse.ui.ParseLoginActivity.MIN_PASSWORD_LENGTH
-ADDED from AndroidManifest.xml:43:13
-	android:value
-		ADDED from AndroidManifest.xml:45:17
-	android:name
 		ADDED from AndroidManifest.xml:44:17
+	android:name
+		ADDED from AndroidManifest.xml:43:17
+meta-data#com.parse.ui.ParseLoginActivity.MIN_PASSWORD_LENGTH
+ADDED from AndroidManifest.xml:45:13
+	android:value
+		ADDED from AndroidManifest.xml:47:17
+	android:name
+		ADDED from AndroidManifest.xml:46:17
 service#com.parse.PushService
-ADDED from AndroidManifest.xml:48:9
+ADDED from AndroidManifest.xml:50:9
 	android:name
-		ADDED from AndroidManifest.xml:48:18
+		ADDED from AndroidManifest.xml:50:18
 receiver#com.parse.ParseBroadcastReceiver
-ADDED from AndroidManifest.xml:49:9
+ADDED from AndroidManifest.xml:52:9
 	android:name
-		ADDED from AndroidManifest.xml:49:19
+		ADDED from AndroidManifest.xml:52:19
 intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.USER_PRESENT
-ADDED from AndroidManifest.xml:50:13
+ADDED from AndroidManifest.xml:53:13
 action#android.intent.action.BOOT_COMPLETED
-ADDED from AndroidManifest.xml:51:17
+ADDED from AndroidManifest.xml:54:17
 	android:name
-		ADDED from AndroidManifest.xml:51:25
+		ADDED from AndroidManifest.xml:54:25
 action#android.intent.action.USER_PRESENT
-ADDED from AndroidManifest.xml:52:17
+ADDED from AndroidManifest.xml:55:17
 	android:name
-		ADDED from AndroidManifest.xml:52:25
+		ADDED from AndroidManifest.xml:55:25
 receiver#com.parse.GcmBroadcastReceiver
-ADDED from AndroidManifest.xml:55:9
+ADDED from AndroidManifest.xml:58:9
 	android:permission
-		ADDED from AndroidManifest.xml:56:13
+		ADDED from AndroidManifest.xml:60:13
 	android:name
-		ADDED from AndroidManifest.xml:55:19
+		ADDED from AndroidManifest.xml:59:13
 intent-filter#com.adamcrawford.ejuicer+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
-ADDED from AndroidManifest.xml:57:13
+ADDED from AndroidManifest.xml:61:13
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from AndroidManifest.xml:58:17
+ADDED from AndroidManifest.xml:62:17
 	android:name
-		ADDED from AndroidManifest.xml:58:25
+		ADDED from AndroidManifest.xml:62:25
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from AndroidManifest.xml:59:17
+ADDED from AndroidManifest.xml:63:17
 	android:name
-		ADDED from AndroidManifest.xml:59:25
+		ADDED from AndroidManifest.xml:63:25
 category#com.adamcrawford.ejuicer
-ADDED from AndroidManifest.xml:61:17
+ADDED from AndroidManifest.xml:65:17
 	android:name
-		ADDED from AndroidManifest.xml:61:27
+		ADDED from AndroidManifest.xml:65:27
 receiver#com.adamcrawford.ejuicer.CustomReceiver
-ADDED from AndroidManifest.xml:64:9
+ADDED from AndroidManifest.xml:68:9
 	android:exported
-		ADDED from AndroidManifest.xml:64:74
+		ADDED from AndroidManifest.xml:70:13
 	android:name
-		ADDED from AndroidManifest.xml:64:19
+		ADDED from AndroidManifest.xml:69:13
 intent-filter#com.parse.push.intent.DELETE+com.parse.push.intent.OPEN+com.parse.push.intent.RECEIVE
-ADDED from AndroidManifest.xml:65:13
+ADDED from AndroidManifest.xml:71:13
 action#com.parse.push.intent.RECEIVE
-ADDED from AndroidManifest.xml:66:17
+ADDED from AndroidManifest.xml:72:17
 	android:name
-		ADDED from AndroidManifest.xml:66:25
+		ADDED from AndroidManifest.xml:72:25
 action#com.parse.push.intent.DELETE
-ADDED from AndroidManifest.xml:67:17
+ADDED from AndroidManifest.xml:73:17
 	android:name
-		ADDED from AndroidManifest.xml:67:25
+		ADDED from AndroidManifest.xml:73:25
 action#com.parse.push.intent.OPEN
-ADDED from AndroidManifest.xml:68:17
+ADDED from AndroidManifest.xml:74:17
 	android:name
-		ADDED from AndroidManifest.xml:68:25
+		ADDED from AndroidManifest.xml:74:25
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from com.facebook.android:facebook-android-sdk:4.0.0:24:5

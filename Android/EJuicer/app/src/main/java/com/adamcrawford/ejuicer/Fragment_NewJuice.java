@@ -1,5 +1,6 @@
 package com.adamcrawford.ejuicer;
 
+import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
 import android.os.Bundle;
@@ -17,7 +18,6 @@ import android.widget.RatingBar;
 import android.widget.Toast;
 
 import com.parse.ParseACL;
-import com.parse.ParseException;
 import com.parse.ParseUser;
 
 /**
@@ -29,12 +29,27 @@ import com.parse.ParseUser;
  */
 public class Fragment_NewJuice extends Fragment implements View.OnClickListener {
 
+    onNewJuice mListener;
     private JuiceItem juice;
     private EditText juiceFlavorView;
     private RatingBar juiceRatingBar;
     private Button deleteButton;
 
     public Fragment_NewJuice() {
+    }
+
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        try {
+            if (getTargetFragment() == null) {
+                Log.i("FNJ", "null");
+            }
+            mListener = (onNewJuice) getTargetFragment();
+        } catch (ClassCastException e) {
+            throw new ClassCastException(activity.toString()
+                    + " must implement onNewJuice");
+        }
     }
 
     @Override
@@ -93,10 +108,11 @@ public class Fragment_NewJuice extends Fragment implements View.OnClickListener 
                     }
                     juice.setFlavor(juiceFlavorView.getText().toString());
                     juice.setRating(juiceRatingBar.getRating());
-                    try {
-                        juice.save();
-                    } catch (ParseException e) {
-                        e.printStackTrace();
+                    if (MainActivity.isConnected(MainActivity.mContext)) {
+                        juice.saveInBackground();
+                    } else {
+                        juice.pinInBackground();
+                        mListener.onJuiceSave();
                     }
                     getFragmentManager().popBackStack();
                 } else {
@@ -114,17 +130,23 @@ public class Fragment_NewJuice extends Fragment implements View.OnClickListener 
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.NJ_delete: {
-                try {
-                    juice.delete();
-                    getFragmentManager().popBackStack();
-                } catch (ParseException e) {
-                    e.printStackTrace();
+                if (MainActivity.isConnected(MainActivity.mContext)) {
+                    juice.deleteInBackground();
+                } else {
+                    juice.setDeleting(true);
+                    juice.unpinInBackground();
+                    juice.deleteEventually();
                 }
+                getFragmentManager().popBackStack();
                 break;
             }
             default: {
                 break;
             }
         }
+    }
+
+    public interface onNewJuice {
+        void onJuiceSave();
     }
 }

@@ -9,12 +9,20 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.parse.FindCallback;
+import com.parse.ParseException;
 import com.parse.ParseInstallation;
 import com.parse.ParseObject;
+import com.parse.ParseQuery;
 import com.parse.ParseUser;
+
+import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 /**
  * Author:  Adam Crawford
@@ -29,9 +37,11 @@ public class MainActivity extends Activity {
     public static Context mContext;
     public static Menu mainMenu;
     public static FragmentManager fragMan;
+    Timer netTimer;
+    TimerTask monitorNet;
 
     public static boolean isConnected(Context context) {
-        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(CONNECTIVITY_SERVICE);
+        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
         return netInfo != null && netInfo.isConnectedOrConnecting();
     }
@@ -45,11 +55,10 @@ public class MainActivity extends Activity {
         mContext = getApplicationContext();
         fragMan = getFragmentManager();
 
-        ParseObject.registerSubclass(JuiceItem.class);
-
         ParseInstallation installation = ParseInstallation.getCurrentInstallation();
         installation.put("user", ParseUser.getCurrentUser());
-        installation.saveInBackground();
+        installation.saveEventually();
+
 
         if (savedInstanceState == null) {
             Fragment_JuiceList fjl = new Fragment_JuiceList();
@@ -57,12 +66,6 @@ public class MainActivity extends Activity {
                     .add(R.id.container, fjl, "JuiceListFrag")
                     .commit();
         }
-    }
-
-    public static boolean isConnected(Context context) {
-        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(CONNECTIVITY_SERVICE);
-        NetworkInfo netInfo = cm.getActiveNetworkInfo();
-        return netInfo != null && netInfo.isConnectedOrConnecting();
     }
 
     @Override
@@ -79,6 +82,10 @@ public class MainActivity extends Activity {
         switch (item.getItemId()) {
             case R.id.action_add: {
                 Fragment_NewJuice fnj = new Fragment_NewJuice();
+                Fragment_JuiceList fjl = (Fragment_JuiceList) MainActivity.fragMan.findFragmentByTag("JuiceListFrag");
+                if (fjl != null && fjl.isVisible()) {
+                    fnj.setTargetFragment(fjl, 0);
+                }
                 getFragmentManager().beginTransaction().replace(R.id.container, fnj).addToBackStack(null).commit();
                 return false;
             }
@@ -104,5 +111,50 @@ public class MainActivity extends Activity {
                 return false;
             }
         }
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if (netTimer != null) {
+            netTimer.cancel();
+        }
+        netTimer = null;
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        startTimer();
+    }
+
+    private void startTimer() {
+        netTimer = new Timer();
+        setTimerTask();
+        netTimer.schedule(monitorNet, 0, 15000);
+    }
+
+    private void setTimerTask() {
+        monitorNet = new TimerTask() {
+            @Override
+            public void run() {
+                Log.i("MA", "Running");
+                if (isConnected(mContext)) {
+                    ParseQuery<JuiceItem> juices;
+                    try {
+                        juices = JuiceItem.getQuery();
+                        juices.fromPin();
+                        juices.findInBackground(new FindCallback<JuiceItem>() {
+                            @Override
+                            public void done(List<JuiceItem> list, ParseException e) {
+                                ParseObject.saveAllInBackground(list);
+                            }
+                        });
+                    } catch (ParseException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        };
     }
 }

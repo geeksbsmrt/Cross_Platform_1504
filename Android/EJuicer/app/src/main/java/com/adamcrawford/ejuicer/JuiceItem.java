@@ -21,6 +21,7 @@ public class JuiceItem extends ParseObject implements Serializable {
 
     public static String FLAVOR = "Flavor";
     public static String RATING = "Rating";
+    public static String DELETING = "Deleting";
 
     public static ParseQuery<JuiceItem> getQuery() throws ParseException {
         Log.i("JI", "getting query");
@@ -41,5 +42,13 @@ public class JuiceItem extends ParseObject implements Serializable {
 
     public void setRating(Number rating) {
         put(RATING, rating);
+    }
+
+    public boolean getDeleting() {
+        return getBoolean(DELETING);
+    }
+
+    public void setDeleting(boolean deleting) {
+        put(DELETING, deleting);
     }
 }

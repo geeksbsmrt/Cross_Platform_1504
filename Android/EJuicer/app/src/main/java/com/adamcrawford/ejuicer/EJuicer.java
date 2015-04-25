@@ -3,7 +3,7 @@ package com.adamcrawford.ejuicer;
 import android.app.Application;
 
 import com.parse.Parse;
-import com.parse.ParseCrashReporting;
+import com.parse.ParseObject;
 import com.parse.ParsePush;
 
 /**
@@ -17,7 +17,9 @@ public class EJuicer extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        ParseCrashReporting.enable(this);
+        Parse.enableLocalDatastore(this);
+        //ParseCrashReporting.enable(this);
+        ParseObject.registerSubclass(JuiceItem.class);
         Parse.initialize(this, getString(R.string.parseAppId), getString(R.string.parseClientKey));
         ParsePush.subscribeInBackground("");
     }

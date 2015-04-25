@@ -2,6 +2,7 @@ package com.adamcrawford.ejuicer;
 
 import android.app.ListFragment;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -13,9 +14,13 @@ import android.widget.ListView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
+import com.parse.DeleteCallback;
 import com.parse.ParseException;
+import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseQueryAdapter;
+
+import java.util.List;
 
 /**
  * Author:  Adam Crawford
@@ -24,9 +29,16 @@ import com.parse.ParseQueryAdapter;
  * File:    Fragment_JuiceList
  * Purpose: TODO Minimum 2 sentence description
  */
-public class Fragment_JuiceList extends ListFragment {
+public class Fragment_JuiceList extends ListFragment implements Fragment_NewJuice.onNewJuice {
 
     ParseQueryAdapter<JuiceItem> juiceAdapter;
+    ParseQuery<JuiceItem> query;
+    private Runnable delayUpdate = new Runnable() {
+        @Override
+        public void run() {
+            juiceAdapter.loadObjects();
+        }
+    };
 
     public Fragment_JuiceList() {
     }
@@ -47,10 +59,13 @@ public class Fragment_JuiceList extends ListFragment {
         ParseQueryAdapter.QueryFactory<JuiceItem> factory = new ParseQueryAdapter.QueryFactory<JuiceItem>() {
             @Override
             public ParseQuery<JuiceItem> create() {
-                ParseQuery<JuiceItem> query = null;
                 try {
                     query = JuiceItem.getQuery();
                     query.orderByDescending(JuiceItem.RATING);
+                    if (!MainActivity.isConnected(MainActivity.mContext)) {
+                        query.fromLocalDatastore();
+                        query.whereNotEqualTo(JuiceItem.DELETING, true);
+                    }
                 } catch (ParseException e) {
                     e.printStackTrace();
                 }
@@ -71,6 +86,26 @@ public class Fragment_JuiceList extends ListFragment {
                 return view;
             }
         };
+
+        juiceAdapter.addOnQueryLoadListener(new ParseQueryAdapter.OnQueryLoadListener<JuiceItem>() {
+            @Override
+            public void onLoading() {
+
+            }
+
+            @Override
+            public void onLoaded(final List<JuiceItem> list, Exception e) {
+                if (MainActivity.isConnected(MainActivity.mContext)) {
+                    ParseObject.unpinAllInBackground(new DeleteCallback() {
+                        @Override
+                        public void done(ParseException e) {
+                            ParseObject.pinAllInBackground(list);
+                        }
+                    });
+                }
+            }
+        });
+
         setListAdapter(juiceAdapter);
     }
 
@@ -94,13 +129,20 @@ public class Fragment_JuiceList extends ListFragment {
         Bundle juiceBundle = new Bundle();
         juiceBundle.putSerializable("juice", juice);
         fnj.setArguments(juiceBundle);
+        fnj.setTargetFragment(this, 0);
         getFragmentManager().beginTransaction().replace(R.id.container, fnj).addToBackStack(null).commit();
     }
-
 
     @Override
     public void onPrepareOptionsMenu(Menu menu) {
         super.onPrepareOptionsMenu(menu);
         menu.findItem(R.id.action_add).setVisible(true);
+    }
+
+    @Override
+    public void onJuiceSave() {
+        Log.i("FJL", "onJuiceSave");
+        Handler myHandler = new Handler();
+        myHandler.postDelayed(delayUpdate, 500);
     }
 }
