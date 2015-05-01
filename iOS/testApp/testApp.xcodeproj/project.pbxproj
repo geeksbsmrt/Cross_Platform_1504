@@ -33,6 +33,7 @@
 		D50E07EE1AE08F0A0016DD5E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50E07E11AE08F0A0016DD5E /* StoreKit.framework */; };
 		D50E07EF1AE08F0A0016DD5E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50E07E21AE08F0A0016DD5E /* SystemConfiguration.framework */; };
 		D50E07F01AE08F0A0016DD5E /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50E07E31AE08F0A0016DD5E /* Twitter.framework */; };
+		D54C94311AF1965700ECA7B2 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D54C94301AF1965700ECA7B2 /* Reachability.m */; };
 		D57DFAC81AE1C8C600A3544D /* JuiceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D57DFAC71AE1C8C600A3544D /* JuiceListViewController.m */; };
 		D57DFACA1AE1CB3400A3544D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57DFAC91AE1CB3400A3544D /* Accounts.framework */; };
 		D57DFACD1AE1CFD800A3544D /* JuiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D57DFACC1AE1CFD800A3544D /* JuiceCell.m */; };
@@ -86,6 +87,8 @@
 		D50E07E11AE08F0A0016DD5E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D50E07E21AE08F0A0016DD5E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D50E07E31AE08F0A0016DD5E /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		D54C942F1AF1965700ECA7B2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		D54C94301AF1965700ECA7B2 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		D57DFAC61AE1C8C600A3544D /* JuiceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuiceListViewController.h; sourceTree = "<group>"; };
 		D57DFAC71AE1C8C600A3544D /* JuiceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JuiceListViewController.m; sourceTree = "<group>"; };
 		D57DFAC91AE1CB3400A3544D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
@@ -179,6 +182,8 @@
 		D50E07A41AE08D980016DD5E /* testApp */ = {
 			isa = PBXGroup;
 			children = (
+				D54C942F1AF1965700ECA7B2 /* Reachability.h */,
+				D54C94301AF1965700ECA7B2 /* Reachability.m */,
 				D57DFAE81AE1DEFE00A3544D /* Images */,
 				D50E07A91AE08D980016DD5E /* AppDelegate.h */,
 				D50E07AA1AE08D980016DD5E /* AppDelegate.m */,
@@ -341,6 +346,7 @@
 			files = (
 				D50E07AE1AE08D980016DD5E /* LoginViewController.m in Sources */,
 				D57DFACD1AE1CFD800A3544D /* JuiceCell.m in Sources */,
+				D54C94311AF1965700ECA7B2 /* Reachability.m in Sources */,
 				D50E07AB1AE08D980016DD5E /* AppDelegate.m in Sources */,
 				D50E07A81AE08D980016DD5E /* main.m in Sources */,
 				D57DFAE71AE1DC3800A3544D /* JuiceDetailViewController.m in Sources */,

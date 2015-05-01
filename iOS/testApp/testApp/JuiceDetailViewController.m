@@ -41,37 +41,61 @@
 }
 
 - (IBAction)onClick:(id)sender{
-	UIButton *pressed = (UIButton*)sender;
-	switch (pressed.tag) {
-		case 0:
+	switch ([sender tag]) {
+		case 0: {
 			//save
-		{
-		if (sending) {
-			sending[@"Flavor"] = flavorField.text;
-			sending[@"Rating"] = [NSNumber numberWithDouble:ratingStepper.value];
-			[sending saveInBackground];
-			
-		} else {
-			PFObject *juice = [PFObject objectWithClassName:@"Juice"];
-			juice[@"Flavor"] = flavorField.text;
-			juice[@"Rating"] = [NSNumber numberWithDouble:ratingStepper.value];
-			juice.ACL = [PFACL ACLWithUser:[PFUser currentUser]];
-			[juice saveInBackground];
+			NSError *error = NULL;
+			NSString *input = flavorField.text;
+			NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"^\\s|\\s+$" options:NSRegularExpressionCaseInsensitive error:&error];
+			if (error) {
+				NSLog(@"Error in regex");
+			}
+			NSUInteger countMatches = [regex numberOfMatchesInString:input options:0 range:NSMakeRange(0, [input length])];
+			NSLog(@"%d", (int)countMatches);
+			if ([input length] == 0 || countMatches > 0) {
+				UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Invalid Juice Name"
+																message:@"Name must be entered and not start or end with space"
+															   delegate:self
+													  cancelButtonTitle:@"OK"
+													  otherButtonTitles:nil];
+				[alert show];
+			} else {
+				PFObject *juice = NULL;
+				BOOL connected = [(AppDelegate *) [[UIApplication sharedApplication] delegate] connected];
+				if (sending) {
+					sending[@"Flavor"] = flavorField.text;
+					sending[@"Rating"] = [NSNumber numberWithDouble:ratingStepper.value];
+					juice = sending;
+					
+				} else {
+					juice = [PFObject objectWithClassName:@"Juice"];
+					juice[@"Flavor"] = flavorField.text;
+					juice[@"Rating"] = [NSNumber numberWithDouble:ratingStepper.value];
+					juice.ACL = [PFACL ACLWithUser:[PFUser currentUser]];
+				}
+				if (connected) {
+					[juice saveInBackground];
+				} else {
+					[juice pinInBackground];
+				}
+				[self dismissViewControllerAnimated:TRUE completion:nil];
+				self.tabBarController.selectedIndex = 0;
+			}
+			break;
 		}
-		[self dismissViewControllerAnimated:TRUE completion:nil];
-		self.tabBarController.selectedIndex = 0;
-		break;
-		}
-		case 1:
-			//Cancel
-		{
-		[self dismissViewControllerAnimated:TRUE completion:nil];
-		self.tabBarController.selectedIndex = 0;
-		break;
+		case 2: {
+			//cancel
+			[self dismissViewControllerAnimated:TRUE completion:nil];
+			self.tabBarController.selectedIndex = 0;
+			break;
 		}
 		default:
 			break;
 	}
+}
+
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+	[alertView dismissWithClickedButtonIndex:buttonIndex animated:YES];
 }
 
 

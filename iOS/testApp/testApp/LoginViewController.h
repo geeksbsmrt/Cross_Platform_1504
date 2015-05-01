@@ -10,8 +10,9 @@
 #import <ParseUI/ParseUI.h>
 #import <Parse/Parse.h>
 #import "JuiceListViewController.h"
+#import "AppDelegate.h"
 
-@interface LoginViewController : UIViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
+@interface LoginViewController : UIViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate, UIAlertViewDelegate>
 {
 	PFLogInViewController *logInViewController;
 }

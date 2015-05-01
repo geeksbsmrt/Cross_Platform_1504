@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
+#import "AppDelegate.h"
 
-@interface JuiceDetailViewController : UIViewController
+@interface JuiceDetailViewController : UIViewController <UIAlertViewDelegate>
 {
 	IBOutlet UITextField *flavorField;
 	IBOutlet UIStepper *ratingStepper;

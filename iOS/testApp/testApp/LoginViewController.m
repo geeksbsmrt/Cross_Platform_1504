@@ -26,22 +26,37 @@
 
 - (void) viewDidAppear:(BOOL)animated
 {
-	if (![PFUser currentUser]) { // No user logged in
-								 // Create the log in view controller
-		logInViewController = [[PFLogInViewController alloc] init];
-		[logInViewController setDelegate:self]; // Set ourselves as the delegate
-		
-		// Create the sign up view controller
-		PFSignUpViewController *signUpViewController = [[PFSignUpViewController alloc] init];
-		[signUpViewController setDelegate:self]; // Set ourselves as the delegate
-		
-		// Assign our sign up controller to be displayed from the login controller
-		[logInViewController setSignUpController:signUpViewController];
-		
-		// Present the log in view controller
-		[self presentViewController:logInViewController animated:YES completion:NULL];
+	BOOL connected = [(AppDelegate *) [[UIApplication sharedApplication] delegate] connected];
+	if (connected) {
+		if (![PFUser currentUser]) { // No user logged in
+									 // Create the log in view controller
+			logInViewController = [[PFLogInViewController alloc] init];
+			[logInViewController setDelegate:self]; // Set ourselves as the delegate
+			
+			// Create the sign up view controller
+			PFSignUpViewController *signUpViewController = [[PFSignUpViewController alloc] init];
+			[signUpViewController setDelegate:self]; // Set ourselves as the delegate
+			
+			// Assign our sign up controller to be displayed from the login controller
+			[logInViewController setSignUpController:signUpViewController];
+			
+			// Present the log in view controller
+			[self presentViewController:logInViewController animated:YES completion:NULL];
+		} else {
+			[self performSegueWithIdentifier: @"listSegue" sender: self];
+		}
 	} else {
-		[self performSegueWithIdentifier: @"listSegue" sender: self];
+		if([PFUser currentUser]){
+			[self performSegueWithIdentifier: @"listSegue" sender: self];
+		} else {
+			//Not Connected and no current user
+			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"No Network Connection"
+															message:@"You must have a valid network connection to login or signup."
+														   delegate:self
+												  cancelButtonTitle:@"OK"
+												  otherButtonTitles:nil];
+			[alert show];
+		}
 	}
 	
 }
@@ -68,6 +83,10 @@
 
 - (void)signUpViewControllerDidCancelSignUp:(PFSignUpViewController *)signUpController {
 	// Do nothing, as the view controller dismisses itself
+}
+
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+	[alertView dismissWithClickedButtonIndex:buttonIndex animated:YES];
 }
 
 

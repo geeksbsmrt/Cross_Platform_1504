@@ -12,11 +12,14 @@
 #import <ParseUI/PFQueryTableViewController.h>
 #import "JuiceCell.h"
 #import "JuiceDetailViewController.h"
+#import "AppDelegate.h"
 
 @interface JuiceListViewController : PFQueryTableViewController
 {
 	IBOutlet UITableView *table;
+	NSTimer *parseTimer;
 }
 
+-(void)checkParse:(NSTimer *) timer;
 
 @end

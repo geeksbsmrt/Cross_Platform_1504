@@ -16,17 +16,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+	parseTimer = [NSTimer scheduledTimerWithTimeInterval:15 target:self selector:@selector(checkParse:) userInfo:nil repeats:YES];
+}
+
+-(void)checkParse:(NSTimer *) timer {
+	BOOL connected = [(AppDelegate *) [[UIApplication sharedApplication] delegate] connected];
+	if (connected) {
+		NSLog(@"Checking Parse");
+		[self loadObjects];
+	}
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+	[self loadObjects];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (void)viewDidAppear:(BOOL)animated {
-	NSLog(@"Loading Objects");
-	[self loadObjects];
 }
 
 - (id)initWithCoder:(NSCoder *)aDecoder{
@@ -51,15 +58,12 @@
 }
 
 - (PFQuery *)queryForTable {
-	NSLog(@"In Query");
 	PFQuery *query = [PFQuery queryWithClassName:self.parseClassName];
- 
-	// If no objects are loaded in memory, we look to the cache first to fill the table
-	// and then subsequently do a query against the network.
-	if (self.objects.count == 0) {
-		query.cachePolicy = kPFCachePolicyCacheThenNetwork;
-	}
 	[query orderByDescending:@"Rating"];
+	BOOL connected = [(AppDelegate *) [[UIApplication sharedApplication] delegate] connected];
+	if (!connected) {
+		[query fromPin];
+	}
  
 	return query;
 }
@@ -88,12 +92,29 @@
 
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
 	if (editingStyle == UITableViewCellEditingStyleDelete) {
-		// Delete the object from Parse and reload the table view
-		[[self.objects objectAtIndex:indexPath.row] deleteInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
-			if (succeeded){
-				[self loadObjects];
-			}
-		}];
+		BOOL connected = [(AppDelegate *) [[UIApplication sharedApplication] delegate] connected];
+		if (connected) {
+			//Connected
+			[[self.objects objectAtIndex:indexPath.row] deleteInBackgroundWithTarget:self selector:@selector(loadObjects)];
+		} else {
+			//Not Connected
+			[[self.objects objectAtIndex:indexPath.row] unpinInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+				if (succeeded) {
+					[self loadObjects];
+				}
+			}];
+			[[self.objects objectAtIndex:indexPath.row] deleteEventually];
+		}
+	}
+}
+
+-(void)objectsDidLoad:(nullable NSError *)error {
+	[super objectsDidLoad:error];
+	if (error) {
+		NSLog(@"error");
+	} else {
+		NSLog(@"Pinning");
+		[PFObject pinAllInBackground:self.objects];
 	}
 }
 
